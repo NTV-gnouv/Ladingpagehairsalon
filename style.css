@@ -48,7 +48,7 @@
     -webkit-font-smoothing: antialiased;
   }
   .title {
-    font: 700 var(--title-font-size) var(--title-font);
+    font: 500 var(--title-font-size) var(--title-font);
     color: var(--title-color);
     -webkit-font-smoothing: auto;
   }
@@ -76,6 +76,7 @@
     border-radius: 15px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border: 2px solid rgb(119, 119, 119);
+    height: 60px;
   
   }
   .button img {
@@ -116,7 +117,7 @@
   }
   
   .section {
-    padding: calc(3rem + var(--header-height)) 0;
+    padding: 10px 0;
   }
   
   .section .subtitle {
@@ -265,8 +266,7 @@
     height: 95%;
     width: 100%;
     position: absolute;
-    top: -10%;
-    left: 9%;
+    left: 1%;
     z-index: 0;
     background-image: url('assets/fotos/backgroundgold.jpg');
     background-size: cover; /* Đảm bảo hình ảnh bao phủ toàn bộ div */
@@ -280,7 +280,8 @@
   }
   #home .image img {
     position: relative;
-    right: 2.93rem;
+    right: -3rem;
+    top: 3rem;
   }
   
   #home .text {
@@ -475,7 +476,6 @@
   }
   footer .brand p {
     color: var(--text-color-light);
-    margin-bottom: 0.75rem;
   }
   footer i {
     font-size: 1.5rem;
@@ -501,7 +501,7 @@
     bottom: 1rem;
     padding: 0.5rem;
     clip-path: circle();
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 0;
     visibility: hidden;
     opacity: 0;
@@ -532,10 +532,18 @@
       padding-bottom: 20px;
     }
     .sectionone {
-        padding: 6rem 0 0 0 !important;
+        padding: 6rem 0 2rem 0 !important;
     }
     .sectionone > .container >  .image {
         padding: 0 3rem;
+    }
+    #home .image::before {
+        left: 3rem;
+        width: 75%;
+    }
+    #home .image img {
+        right: -1rem;
+        top: 1rem;
     }
     
   }
