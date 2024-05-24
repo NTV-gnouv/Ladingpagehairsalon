@@ -93,7 +93,7 @@
     background: linear-gradient(
       270deg,
       hsla(var(--hue), 36%, 57%, 1),
-      hsla(var(--hue), 65%, 88%, 0.34)
+      hhsl(34.89deg 100% 20.55%)
     );
   }
   
@@ -102,7 +102,7 @@
     background: linear-gradient(
       270deg,
       hsla(var(--hue), 65%, 88%, 0.34),
-      hsla(var(--hue), 36%, 57%, 1)
+      hsl(34.89deg 100% 20.55%)
     );
   }
   
@@ -310,7 +310,8 @@
     border-radius: 20px;
   }
   .buttoninfo >  .button {
-    width: 90%;
+    border-radius: 30px;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
   }
