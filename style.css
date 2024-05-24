@@ -411,6 +411,8 @@
     padding: 2rem;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
     border-radius: 0.25rem;
+    background-color: rgb(255, 240, 222);
+    border-radius: 10px;
   }
   #testimonials blockquote p {
     position: relative;
@@ -637,6 +639,9 @@
     .card {
       padding-left: 3rem;
       padding-right: 3rem;
+    }
+    .card:hover {
+      background-color: rgb(255, 218, 172);
     }
     /*TESTIMONIALS */
     #testimonials .container {
