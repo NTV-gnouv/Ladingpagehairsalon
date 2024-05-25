@@ -146,3 +146,8 @@ btnLeft.addEventListener("click", () => {
     handleChangeSlide();
   }, 5000);
 });
+function showLargeImage(src) {
+  var largeImage = document.getElementById("large-image");
+  largeImage.src = src;
+}
+
