@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+Sitemap: https://hairsalontrinhsaserdanang.io.vn/sitemap.xml
