@@ -607,6 +607,9 @@
       height: 140px;
       justify-self: center;
      }
+     .card:hover {
+      background-color: rgb(255, 218, 172);
+    }
   }
   /* EXTRA LARGE DEVICES: >1200px */
   @media (min-width: 1200px) {
